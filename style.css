@@ -1,0 +1,23 @@
+.s-container{
+    padding:0.01em 16px
+}
+
+.s-red{
+    background-color: brown;
+}
+
+.s-white{
+    background-color: white;
+}
+
+.s-center{
+    text-align: center;
+}
+
+.s-left{
+    text-align: left;
+}
+
+.s-right{
+    text-align: right;
+}
