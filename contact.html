@@ -2,59 +2,77 @@
 <html>
 
 <head>
-    <title>Starla / Contact</title>
+    <title>Starla</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-    <div class="s-container s-red s-center">
-        <br>
-        <img src="img/logounhas.png" width="60" height="60">
-        <br>
-        <br>
-    </div>
-
-    <div class="s-center s-white">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <hr>
-        <font face="consolas">
-            <h1 style="color:black" class="text-align: center">CONTACT PERSON</h1>
-        </font>
-        <font face="bahnschrift light">
-            <p>Phone no.: +6282264033731 <br />
-                Instagram: @strabiatul<br />
-                Twitter: @yunb0b <br />
-                Facebook: https://www.facebook.com/starla28 <br />
-                E-mail: adawiyahsr17h@student.unhas.ac.id
-            </p>
-        </font>
-        <br>
-        <hr>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-    </div>
-
+<body style="background-color: black;">
+    <header class="bg-con">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logounhas.png" width="50" height="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="jumbotron my-auto" style="background-color: transparent;">
+                <h1 class="text-center text-light font-weight-bold">Contact Us</h1>
+            </div>
+            <div class="container" style="background-color:lightblue;">
+                <br>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputFirstName">Nama Depan</label>
+                            <input type="text" class="form-control" id="inputFirstName">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputLastName">Nama Belakang</label>
+                            <input type="text" class="form-control" id="inputLastName">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Jalan Sudirman">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail4">E-mail</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="xxx@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Kritik dan atau Saran</label>
+                        <input type="text" class="form-control" id="inputCritics">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <br>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </header>
     <footer>
-        <div class="s-container s-red s-center">
-            <h3 style="color: white;">[<a href="index.html">Back Home</a>]</h3>
-            <p style="color: white;">Copyright &copy; Siti
-                Rabiatul Adawiyah, 2019</p>
+        <div class="container" style="color: white;">
+            <p class="text-center">Copyright &copy 2019 Siti Rabiatul Adawiyah</p>
         </div>
     </footer>
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>
