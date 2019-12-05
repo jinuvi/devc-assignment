@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+header {
+    height: 100vh;
+}
+
+section {
+    height: 100vh;
+}
+
+.bg-uh{
+    background-image: url("../img/unhas.jpg");
+    background-color: rgba(0, 0, 0, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-fluid {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}

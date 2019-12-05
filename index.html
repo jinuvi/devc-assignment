@@ -3,51 +3,104 @@
 
 <head>
     <title>Starla</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="s-container s-red s-center">
-        <br>
-        <img src="img/logounhas.png" width="60" height="60">
-        <br>
-        <br>
-    </div>
-
-    <div class="s-center s-white">
-        <br>
-        <img src="img/foto1.JPG" align="center" width="450" height="250">
-        <img src="img/foto2.JPG" align="center" width="450" height="250">
-        <img src="img/foto3.JPG" align="center" width="450" height="250">
-        <br>
-        <br>
-        <hr>
-        <font face="consolas">
-            <h1 style="color:black" class="text-align: center">COMPUTER SCIENCE</h1>
-        </font>
-        <font face="bahnschrift light">
-            <p><a href="https://en.wikipedia.org/wiki/Computer_science">Computer Science</a> (sometimes called
-                computation science or computing science, <br />
-                but not to be confused with computational science or software engineering) is <br />
-                the study of processes that interact with data and
-                that can be represented as data in the form of programs. <br />
-                It enables the use of algorithms to manipulate,
-                store, and communicate digital information. <br />
-                A computer scientist studies the theory of computation and
-                the practice of designing software systems.</p>
-        </font>
-        <br>
-        <hr>
-        <br>
-    </div>
-
+    <header class="bg-uh">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logounhas.png" width="50" height="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="jumbotron my-auto" style="background-color: transparent;">
+                <h1 class="display-1 text-center text-light font-weight-bold">Universitas Hasanuddin</h1>
+                <div class="container my-5">
+                    <p class="lead text-center text-light my-5 mx-5">Universitas Hasanuddin, yang kemudian disingkat
+                        UNHAS,
+                        merupakan sebuah
+                        perguruan
+                        tinggi
+                        negeri di kota Makassar, Provinsi Sulawesi Selatan, Indonesia, yang berdiri pada 10 September
+                        1956.
+                        Universitas Hasanuddin memperoleh akreditasi institusi dengan peringkat A (Amat Baik) dari Badan
+                        Akreditasi Nasional Perguruan Tinggi (BAN-PT) berdasarkan SK BAN-PT tahun 2013 dengan masa
+                        berlaku
+                        hingga tahun 2018.</p>
+                </div>
+                <div class="container text-center">
+                    <a class="btn btn-danger btn-lg mx-auto my-5" href="#section" role="button">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="section">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-md">
+                    <div class="card">
+                        <img src=" img/foto1.JPG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card">
+                        <img src="img/foto2.JPG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card"">
+                        <img src=" img/foto3.JPG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
-        <div class="s-container s-red s-center">
-            <h3 style="color: white;">[<a href="about.html">About</a>] :: [<a href="contact.html">Contact</a>]</h3>
-            <p style="color: white;">Copyright &copy; Siti
-                Rabiatul Adawiyah, 2019</p>
+        <div class="container">
+            <p class="text-center">Copyright &copy 2019</p>
         </div>
     </footer>
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>
